@@ -2,7 +2,39 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+Bike Share Data
+Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world.
+Bicycle-sharing systems allow users to rent bicycles
+on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B,
+though they can also return it to the same location if they'd like to just go for a ride.
+Regardless, each bike can serve several users per day.
 
+"""
+
+'''
+ In this project, the student had to make use of Python to explore data related
+ to bike share systems for three major cities in the United States — Chicago,
+ New York City, and Washington. The student had to write code to (a) import
+ the data and answer interesting questions about it by computing descriptive
+ statistics,
+ and (b) write a script that takes in raw input to create an interactive
+ experience in the terminal to present these statistics.
+
+'''
+
+## About Dataset
+"""
+Randomly selected data for the first six months of 2017 are provided for all three cities.
+All three of the data files contain the same core six (6) columns:
+
+Start Time (e.g., 2017-01-01 00:07:57)
+End Time (e.g., 2017-01-01 00:20:53)
+Trip Duration (in seconds - e.g., 776)
+Start Station (e.g., Broadway & Barry Ave)
+End Station (e.g., Sedgwick St & North Ave)
+User Type (Subscriber or Customer)
+"""
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -107,7 +139,7 @@ def station_stats(df):
     print('-'*40)
 
 
-
+""" Function to show trip's statistics """
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
