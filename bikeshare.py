@@ -1,7 +1,8 @@
 import time
 import pandas as pd
 import numpy as np
-
+## Author : Ahmad Abdelhameed
+## Email : Abdelhameed9@yahoo.com
 
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -170,6 +171,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            print("Goooood Bye !")
             break
 
 
