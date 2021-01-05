@@ -1,4 +1,11 @@
+###      Author           #######
+Ahmad Abdelhameed
 
+###      Date created     #######
+01/05/2021
+
+###      Project Title    #######
+Explore US Bikeshare
 
 ### Description
 Bike Share Data
