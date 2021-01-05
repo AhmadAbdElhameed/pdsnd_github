@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 
 """
-Bike Share Data
+##############    US Bike Share Data    ############# 
+
 Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world.
 Bicycle-sharing systems allow users to rent bicycles
 on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B,
